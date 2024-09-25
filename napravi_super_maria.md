@@ -96,7 +96,7 @@ I opet: IT'S ME MARIO!
     - ...
 
 ### Dodajmo oblike za detekciju sudara
-- _Mario_ -> _CollisionShape2D_ -> _Shape_ (unutar inspektora) -> _CircleShape2D
+- _Mario_ -> _CollisionShape2D_ -> _Shape_ (unutar inspektora) -> _CircleShape2D_
 - _TileMap_ -> _TileSet_ (unutar inspektora) -> _Physics Layer_ -> _Add element_
 ![image](images/tileset_physics.png)
 
@@ -216,11 +216,11 @@ _Pa dobro kakve su sad to cudne rijeci int, float, void?_
     
 - Odaberemo _Sprite2D_ iz _Mario_ cvora:
     - Unutar inspektora s desne strane kliknemo na kljucic kraj _Frame_ opcije
-![image](images/animation_timer.png)
+![image](images/animation_frame.png)
     - Dodajmo novu _walk_ animaciju:
         - Vrijeme trajanja animacije: 0.2
         - Prvi frame u trenutku 0 sa _Frame_ = 0
-        - Drugi frame u trenutku 0.1 sa _Frame_ = 0
+        - Drugi frame u trenutku 0.1 sa _Frame_ = 3
     - Dodajmo trecu _jump_ animaciju:
         - Vrijeme trajanja animacije: 0.5
         - Prvi frame u trenutku 0 sa _Frame_ = 0
